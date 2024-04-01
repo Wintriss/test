@@ -2,7 +2,7 @@ f = open('17_13088.txt')
 array = [int(x) for x in f]
 n = len(array)
 mx = 0
-k = 0
+k =  0
 mx_sm = 0
 for i in array:
     if i > mx and i%100 == 17:
